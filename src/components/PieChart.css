@@ -1,0 +1,27 @@
+
+
+  .pie-chart-container {
+    height: 300px;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-tooltip {
+    background: white;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .legend-text {
+    font-size: 13px;
+  }
+  
+  .chart-annotation {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 500;
+    color: #444;
+  }
+  

@@ -1,0 +1,40 @@
+.country-selector {
+  position: relative;
+  width: 300px;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.country-dropdown {
+  width: 100%;
+  padding: 12px 12px 12px 36px;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.country-dropdown:focus {
+  border-color: blue;
+}
+
+.search-container::after {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  
+}
